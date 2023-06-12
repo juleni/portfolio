@@ -1,0 +1,17 @@
+Build and Deploy a Custom React Portfolio - Vite.js & Tailwind CSS 
+--------------------------------------------------------------------
+https://www.youtube.com/watch?v=22CxRxryQFE&ab_channel=CodeCommerce  (1:24:38)
+
+- npm create vite@latest
+- npm i react-icons --save
+## Install and setup tailwindcss https://tailwindcss.com/docs/guides/vite
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+
+
+- npm install gh-pages
+
+
+Deploy react app to GitHub pages:
+---------------------------------
+https://www.makeuseof.com/how-to-deploy-react-app-with-github-pages/
