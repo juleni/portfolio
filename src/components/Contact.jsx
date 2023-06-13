@@ -56,7 +56,7 @@ function Contact() {
             Message
           </label>
           <textarea
-            rows={10}
+            rows={8}
             name="message"
             className="border-2 rounded-lg p-3 flex border-gray-300"
           ></textarea>
