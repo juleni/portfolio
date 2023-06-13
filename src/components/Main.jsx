@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 
 const Main = () => {
@@ -39,10 +39,25 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
+            <a
+              href="https://github.com/juleni"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <FaGithub className="cursor-pointer" size={20} />
+            </a>
+
             <FaTwitter className="cursor-pointer" size={20} />
-            <FaFacebook className="cursor-pointer" size={20} />
+            {/** <FaFacebook className="cursor-pointer" size={20} />*/}
+
             <FaInstagram className="cursor-pointer" size={20} />
-            <FaLinkedin className="cursor-pointer" size={20} />
+            <a
+              href="https://sk.linkedin.com/in/julian-legeny-45259b208"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <FaLinkedin className="cursor-pointer" size={20} />
+            </a>
           </div>
         </div>
       </div>
