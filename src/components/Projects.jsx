@@ -22,7 +22,16 @@ const Projects = () => {
       </h1>
       <p className="text-center py-5">
         Below is a list of some of the projects I tried. All source codes are
-        available on my GitHub page.
+        available on my{" "}
+        <a
+          href="https://github.com/juleni"
+          target={"_blank"}
+          rel="noreferrer"
+          className="font-semibold hover:underline"
+        >
+          GitHub
+        </a>{" "}
+        page.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
