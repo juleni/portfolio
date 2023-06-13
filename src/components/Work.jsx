@@ -27,19 +27,21 @@ const data = [
     title: "Full stack programmer",
     duration: "3 years",
     details:
-      "Open source project. Tech stack: Java/J2EE, Javascript, HTML, CSS, RDBs",
+      "Open source project. Tech stack: Java/J2EE, Javascript, HTML, CSS, RDBs (MS SQL, IBM DB2, Oracle, MySQL, PostgreSQL, SAP DB, Sybase, MaxDB)",
   },
   {
     year: 2002,
-    title: "SQL programmer",
+    title: "BE/SQL programmer",
     duration: "1 year",
-    details: "Tech stack: PostgreSQL",
+    details:
+      "B2B Online Auction System - green field project. Tech stack: PostgreSQL, plpg/sql, jsp, java beans",
   },
   {
     year: 2000,
     title: "Fullstack programmer",
     duration: "2 years",
-    details: "Tech stack: Java/JSP, Javascript, mysql, HTML, CSS",
+    details:
+      "Tech stack: Java/JSP, Javascript, RDBs (IBM DB2, MySQL), HTML, CSS",
   },
 ];
 
