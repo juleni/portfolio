@@ -13,7 +13,10 @@ const Projects = () => {
   // https://juleni.github.io/chatbot/
 
   return (
-    <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-10">
+    <div
+      id="projects"
+      className="max-w-[1040px] m-auto md:pl-20 p-4 py-10 pt-0"
+    >
       <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-5">
         Projects
       </h1>
