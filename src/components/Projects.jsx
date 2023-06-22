@@ -1,3 +1,5 @@
+import aiImageGenImg from "../assets/ai-image-generator.jpg";
+import memoriesImg from "../assets/memories.jpg";
 import qrCodeGenImg from "../assets/qr-code-generator.jpg";
 import musicPlayerImg from "../assets/simple-music-player.jpg";
 import sortingHatImg from "../assets/sorting-hat.jpg";
@@ -6,7 +8,9 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   // https://trello-clone-juleni.vercel.app/
+  // https://ai-image-generator-brown.vercel.app/
   // https://ai-sorting-hat.vercel.app/
+  // https://juleni.github.io/memories-storage-speech/
   // https://juleni.github.io/music-player-2/
   // https://juleni.github.io/qrcode-generator/
   // https://juleni.github.io/dictaphone/
@@ -35,6 +39,11 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
+          img={aiImageGenImg}
+          title="AI Image Generator"
+          url={"https://ai-image-generator-brown.vercel.app/"}
+        />
+        <ProjectItem
           img={trelloImg}
           title="GPT Trello Clone"
           url={"https://trello-clone-juleni.vercel.app/"}
@@ -43,6 +52,11 @@ const Projects = () => {
           img={sortingHatImg}
           title="AI Sorting Hat"
           url={"https://ai-sorting-hat.vercel.app/"}
+        />
+        <ProjectItem
+          img={memoriesImg}
+          title="Memories Stoorage"
+          url={"https://juleni.github.io/memories-storage-speech/"}
         />
         <ProjectItem
           img={qrCodeGenImg}
