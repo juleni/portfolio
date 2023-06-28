@@ -3,6 +3,7 @@ import memoriesImg from "../assets/memories.jpg";
 import qrCodeGenImg from "../assets/qr-code-generator.jpg";
 import musicPlayerImg from "../assets/simple-music-player.jpg";
 import sortingHatImg from "../assets/sorting-hat.jpg";
+import todoListSupabaseImg from "../assets/todo-list-supabase.jpg";
 import trelloImg from "../assets/trello-clone.jpg";
 import ProjectItem from "./ProjectItem";
 
@@ -13,8 +14,10 @@ const Projects = () => {
   // https://juleni.github.io/memories-storage-speech/
   // https://juleni.github.io/music-player-2/
   // https://juleni.github.io/qrcode-generator/
+  // https://juleni.github.io/radio-player-app/
   // https://juleni.github.io/dictaphone/
   // https://juleni.github.io/chatbot/
+  // https://todo-list-supabase-gamma.vercel.app/
 
   return (
     <div
@@ -55,8 +58,13 @@ const Projects = () => {
         />
         <ProjectItem
           img={memoriesImg}
-          title="Memories Stoorage"
+          title="Memories Storage"
           url={"https://juleni.github.io/memories-storage-speech/"}
+        />
+        <ProjectItem
+          img={todoListSupabaseImg}
+          title="TODO List Supabase"
+          url={"https://todo-list-supabase-gamma.vercel.app/"}
         />
         <ProjectItem
           img={qrCodeGenImg}
