@@ -6,7 +6,7 @@ const data = [
     title: "Software Engineer",
     duration: "till now",
     details:
-      "Full stack programmer / Analyst. Tech stack: Javascript, Typescript, Node.js, React JS, Java, #C, SQL, NoSQL",
+      "Full stack programmer / Analyst. Tech stack: Javascript, Typescript, React JS, Node.js, Next.js, CSS3, Java, #C, SQL, NoSQL",
   },
   {
     year: 2016,
@@ -27,7 +27,7 @@ const data = [
     title: "Full stack programmer",
     duration: "3 years",
     details:
-      "Open source, greenfield project. Tech stack: Java/J2EE, Javascript, HTML, CSS, RDBs (MS SQL, IBM DB2, Oracle, MySQL, PostgreSQL, SAP DB, Sybase, MaxDB)",
+      "Participation on open source, green field project - implementation of the application core (OpenCore), repository of common application functionality patterns (OpenPatterns), security module (OpenSecurity), module for filtering and searching for data (OpenSearch) and module for shopping - inventory management (OpenInventory) Dev Stack: Java/J2EE/JSP, Struts, JavaScript, CSS2, jUnit, RDBS: (Oracle, MS SQL, IBM DB2, PostgreSQL, MySQL, Sybase, SAP DB), App servers: (Jonas, jBoss, IBM Websphere, BEA Weblogic) ",
   },
   {
     year: 2002,
