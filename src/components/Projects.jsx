@@ -2,6 +2,7 @@ import aiImageGenImg from "../assets/ai-image-generator.jpg";
 import memoriesImg from "../assets/memories.jpg";
 import qrCodeGenImg from "../assets/qr-code-generator.jpg";
 import musicPlayerImg from "../assets/simple-music-player.jpg";
+import skRadioPlayerImg from "../assets/sk-radio-player.jpg";
 import sortingHatImg from "../assets/sorting-hat.jpg";
 import todoListSupabaseImg from "../assets/todo-list-supabase.jpg";
 import trelloImg from "../assets/trello-clone.jpg";
@@ -18,6 +19,7 @@ const Projects = () => {
   // https://juleni.github.io/dictaphone/
   // https://juleni.github.io/chatbot/
   // https://todo-list-supabase-gamma.vercel.app/
+  // https://juleni.github.io/radio-player-app/
 
   return (
     <div
@@ -70,6 +72,11 @@ const Projects = () => {
           img={qrCodeGenImg}
           title="QR Code Generator"
           url={"https://juleni.github.io/qrcode-generator/"}
+        />
+        <ProjectItem
+          img={skRadioPlayerImg}
+          title="SK Radio Player"
+          url={"https://juleni.github.io/radio-player-app/"}
         />
         <ProjectItem
           img={musicPlayerImg}
