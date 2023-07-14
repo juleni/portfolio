@@ -6,6 +6,7 @@ import skRadioPlayerImg from "../assets/sk-radio-player.jpg";
 import sortingHatImg from "../assets/sorting-hat.jpg";
 import todoListSupabaseImg from "../assets/todo-list-supabase.jpg";
 import trelloImg from "../assets/trello-clone.jpg";
+import weatherAppImg from "../assets/weather-app.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -20,6 +21,7 @@ const Projects = () => {
   // https://juleni.github.io/chatbot/
   // https://todo-list-supabase-gamma.vercel.app/
   // https://juleni.github.io/radio-player-app/
+  // https://juleni.github.io/weather-app/
 
   return (
     <div
@@ -82,6 +84,11 @@ const Projects = () => {
           img={musicPlayerImg}
           title="Simple Music Player"
           url={"https://juleni.github.io/music-player-2/"}
+        />
+        <ProjectItem
+          img={weatherAppImg}
+          title="Weather Application"
+          url={"https://juleni.github.io/weather-app/"}
         />
       </div>
     </div>
