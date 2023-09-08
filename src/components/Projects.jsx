@@ -1,5 +1,6 @@
 import aiImageGenImg from "../assets/ai-image-generator.jpg";
 import memoriesImg from "../assets/memories.jpg";
+import myMarkdownBlogImg from "../assets/my-markdown-blog.jpg";
 import qrCodeGenImg from "../assets/qr-code-generator.jpg";
 import musicPlayerImg from "../assets/simple-music-player.jpg";
 import skRadioPlayerImg from "../assets/sk-radio-player.jpg";
@@ -7,6 +8,7 @@ import sortingHatImg from "../assets/sorting-hat.jpg";
 import todoListSupabaseImg from "../assets/todo-list-supabase.jpg";
 import trelloImg from "../assets/trello-clone.jpg";
 import weatherAppImg from "../assets/weather-app.jpg";
+
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -22,6 +24,7 @@ const Projects = () => {
   // https://todo-list-supabase-gamma.vercel.app/
   // https://juleni.github.io/radio-player-app/
   // https://juleni.github.io/weather-app/
+  // https://blog-markdown-git-main-juleni.vercel.app/
 
   return (
     <div
@@ -89,6 +92,11 @@ const Projects = () => {
           img={weatherAppImg}
           title="Weather Application"
           url={"https://juleni.github.io/weather-app/"}
+        />
+        <ProjectItem
+          img={myMarkdownBlogImg}
+          title="My Markdown Blog"
+          url={"https://blog-markdown-git-main-juleni.vercel.app/"}
         />
       </div>
     </div>
