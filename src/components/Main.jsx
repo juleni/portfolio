@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaBlogger, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 
 const Main = () => {
@@ -47,8 +47,12 @@ const Main = () => {
               <FaGithub className="cursor-pointer" size={20} />
             </a>
 
-            <FaTwitter className="cursor-pointer" size={20} />
-            {/** <FaFacebook className="cursor-pointer" size={20} />*/}
+            <FaBlogger className="cursor-pointer" size={20} />
+            <a
+              href="https://juleni.github.io/blog/"
+              target={"_blank"}
+              rel="noreferrer"
+            ></a>
 
             <FaInstagram className="cursor-pointer" size={20} />
             <a
