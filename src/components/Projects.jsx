@@ -25,6 +25,7 @@ const Projects = () => {
   // https://juleni.github.io/radio-player-app/
   // https://juleni.github.io/weather-app/
   // https://blog-markdown-git-main-juleni.vercel.app/
+  // https://juleni.github.io/blog/
 
   return (
     <div
@@ -96,7 +97,7 @@ const Projects = () => {
         <ProjectItem
           img={myMarkdownBlogImg}
           title="My Markdown Blog"
-          url={"https://blog-markdown-git-main-juleni.vercel.app/"}
+          url={"https://juleni.github.io/blog/"}
         />
       </div>
     </div>
