@@ -5,6 +5,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import BackgroundCircles from "./BackgroundCircles";
 
 const Main = () => {
   // src="https://images.unsplash.com/photo-1569591803741-6246fbc6934c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
@@ -17,8 +18,9 @@ const Main = () => {
         src="https://images.unsplash.com/photo-1581456495146-65a71b2c8e52?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80"
         alt="/"
       />
-      <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
+      <div className="w-full h-screen absolute top-0 left-0 bg-white/50 overflow-hidden">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
+          <BackgroundCircles />
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-700">
             <span className="flex justify-center">My name is</span>
             <span className="flex justify-center">Julian Legeny</span>
@@ -43,7 +45,7 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex justify-between pt-6 max-w-[200px] w-full">
+          <div className="flex justify-between pt-6 max-w-[200px] w-full z-0">
             <a
               href="https://github.com/juleni"
               target={"_blank"}
