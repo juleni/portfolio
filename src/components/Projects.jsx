@@ -1,5 +1,6 @@
 import aiImageGenImg from "../assets/ai-image-generator.jpg";
 import IdeasCollectionImg from "../assets/ideas-collection.jpg";
+import liveNewsAppImg from "../assets/live-news.jpg";
 import memoriesImg from "../assets/memories.jpg";
 import myMarkdownBlogImg from "../assets/my-markdown-blog.jpg";
 import qrCodeGenImg from "../assets/qr-code-generator.jpg";
@@ -28,6 +29,7 @@ const Projects = () => {
   // https://blog-markdown-git-main-juleni.vercel.app/
   // https://juleni.github.io/blog/
   // https://ideas-collection-dgzds9s7l-juleni.vercel.app/
+  // https://news-37mnbedfi-juleni.vercel.app/
 
   return (
     <div
@@ -105,6 +107,11 @@ const Projects = () => {
           img={IdeasCollectionImg}
           title="Ideas Collection"
           url={"https://ideas-collection-dgzds9s7l-juleni.vercel.app/"}
+        />
+        <ProjectItem
+          img={liveNewsAppImg}
+          title="Live News"
+          url={"https://news-37mnbedfi-juleni.vercel.app/"}
         />
       </div>
     </div>
